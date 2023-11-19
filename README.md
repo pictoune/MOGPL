@@ -18,6 +18,29 @@ The project delves into several questions:
 - Conducting tests to measure the execution time of the algorithm relative to the input size.
 - Comparing the implemented algorithms for calculating Type IV paths.
 
+# Usage 
+## Step 1: Clone the Repository
+Clone the TADI repository to your local machine using the following commands:
+```bash
+git clone https://github.com/pictoune/MOGPL.git
+cd MOGPL
+```
+## Step 2: Create the required Conda Environment
+Set up the required environment using Conda:
+  ```bash
+  conda env create -f environment.yml -n MOGPL_env
+  ```
+## Step 3: Running the code
+You must first activate the conda environment and go to the folder containing the code: 
+  ```bash
+  conda activate TADI_env
+  cd code
+  ```
+  then you can run it:
+  ```bash
+  python main.py
+  ```
+
 ## License
 This project is open source and available under the [MIT License](LICENSE).
 
