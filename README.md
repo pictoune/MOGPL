@@ -33,7 +33,7 @@ Set up the required environment using Conda:
 ## Step 3: Running the code
 You must first activate the conda environment and go to the folder containing the code: 
   ```bash
-  conda activate TADI_env
+  conda activate MOGPL_env
   cd code
   ```
   then you can run it:
