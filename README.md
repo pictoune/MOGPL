@@ -36,9 +36,13 @@ You must first activate the conda environment and go to the folder containing th
   conda activate MOGPL_env
   cd code
   ```
-  then you can run it:
+  then you can run the main code:
   ```bash
   python main.py
+  ```
+  or the the performance analysis code:
+  ```bash
+  python performance_analysis.py
   ```
 
 ## License
